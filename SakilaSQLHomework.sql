@@ -322,4 +322,4 @@ limit 5)
 Select * from top_five_genres;
 
 -- * 8c. You find that you no longer need the view `top_five_genres`. Write a query to delete it.
-DROP VIEW IF EXISTS v;
+DROP VIEW IF EXISTS top_five_genres;
